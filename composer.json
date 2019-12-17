@@ -1,10 +1,9 @@
 {
   "name": "bariton3/mqseries-php",
   "type": "library",
-  "minimum-stability": "dev",
   "version": "1.0.0",
   "description": "client to WebSphere MQ Queue Manager using the PHP mqseries pecl extension for Laravel framework",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "license": "Apache-2.0",
   "require": {
     "laravel/framework": "6.*",

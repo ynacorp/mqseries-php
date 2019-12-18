@@ -1,18 +1,18 @@
 {
-  "name": "bariton3/mqseries-php",
+  "name": "yna/mqseries-php",
   "type": "library",
+  "minimum-stability": "dev",
   "version": "1.0.0",
   "description": "client to WebSphere MQ Queue Manager using the PHP mqseries pecl extension for Laravel framework",
-  "minimum-stability": "dev",
   "license": "Apache-2.0",
   "require": {
     "laravel/framework": "6.*",
-    "php": ">=5.5.9",
+    "php": ">=7.22",
     "psr/log": "^1.0"
   },
   "require-dev": {
     "laravel/framework": "6.*",
-    "phpunit/phpunit": "4.8.*"
+    "phpunit/phpunit": "8.0"
   },
   "suggest": {
     "ext-mqseries": "To actually use this library, you'll have to install the PECL extension mqseries"
